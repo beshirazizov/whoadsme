@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WhoAdsMe</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: rgb(14, 14, 14);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            position: absolute;
+            top: 48%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 270px;
+        }
+
+        a {
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            opacity: 0.7;
+            transition: 0.2s all linear;
+        }
+        a:hover {
+            opacity: 1;
+        }
+
+        @media (max-width:330px) {
+            img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/logo.svg" alt="">
+    <a href="mailto:proposal@whoads.me">proposal@whoads.me</a>
+</body>
+
+</html>
