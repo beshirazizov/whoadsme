@@ -6,51 +6,436 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WhoAdsMe</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <style>
-        html,
-        body {
-            height: 100%;
-            overflow: hidden;
-        }
+    <link rel="shortcut icon" href="Content/img/logoDark.svg" type="image/x-icon">
+    <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Content/css/plugins.css">
+    <link rel="stylesheet" href="Content/css/style.css">
 
-        body {
-            background-color: rgb(14, 14, 14);
-            font-family: 'Montserrat', sans-serif;
-        }
+    <!--[if lt IE 9]>
+      <script src="Content/js/respond.min.js"></script>
+    <![endif]-->
 
-        img {
-            position: absolute;
-            top: 48%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 270px;
-        }
-
-        a {
-            position: absolute;
-            top: 62%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            opacity: 0.7;
-            transition: 0.2s all linear;
-        }
-        a:hover {
-            opacity: 1;
-        }
-
-        @media (max-width:330px) {
-            img {
-                width: 80%;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <img src="img/logo.svg" alt="">
-    <a href="mailto:proposal@whoads.me">proposal@whoads.me</a>
+    <section id="nav">
+        <div class="container wam-container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#">
+                    <img src="Content/img/logo.svg" alt="">
+                </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#ads">Advertisers</a>
+                        <a class="nav-item nav-link wam-btn" href="#footer">I'm IN</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="mob-nav-btn">
+        <div class="container">
+            <button class="hamburger navbar-toggler hamburger--spring" type="button" data-toggle="collapse">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </section>
+    <section id="mob-nav" class="mob-nav-hide">
+        <div class="mob-navbar-nav">
+            <a class="nav-item nav-link" href="#">Awards</a>
+            <a class="nav-item nav-link" href="#">Blog</a>
+            <a class="nav-item nav-link" href="#">Advertisers</a>
+            <a class="nav-item nav-link wam-btn" href="#">I'm IN</a>
+        </div>
+    </section>
+
+    <section id="intro">
+        <video src="Content/videos/video.mp4" autoplay muted loop></video>
+        <div class="intro-ad-title">
+            <p class="agency-name">Landor Australia</p>
+            <p class="ad-name">Brotherly Love</p>
+        </div>
+        <div class="wrapper">
+            <div class="container wam-container">
+                <h1 class="motto">Find the best advertiser for you</h1>
+                <p class="motto-small">
+                    We are connecting advertisers who create visual communication and breathtaking ad campaigns for different industries with businesses.<br>
+                    <span>Except: Gambling, casino, betting.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="ads">
+        <div id="ads-inner">
+            <div class="ad-wrapper">
+                <img src="Content/img/Capture.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 37.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 38.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 39.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 42.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 43.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 44.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 45.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 46.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 47.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 69.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Capture.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 37.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 38.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 39.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 42.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 43.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 44.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 45.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 46.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 47.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 69.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Capture.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 37.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 38.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 39.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 42.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 43.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 44.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 45.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 46.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 47.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 69.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Capture.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 37.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 38.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 39.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 42.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 43.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 45.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+            <div class="ad-wrapper">
+                <img src="Content/img/Image 38.png" alt="">
+                <div class="ad-title">
+                    <p class="agency">McCann Australia</p>
+                    <p class="company">Sony</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <form class="bookameeting" action="#" method="POST">
+                <h4>Request A Meeting.</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="name">Name</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="Email">Email</label>
+                        <input id="Email" type="text">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="Phone">Phone</label>
+                        <input id="Phone" type="text">
+                    </div>
+                    <div class="col-md-3">
+                        <label class="lblforbtn">.</label>
+                        <button class="btn btn-primary btn-block">Contact us now!</button>
+                    </div>
+                </div>
+            </form>
+            <hr>
+            <div class="d-md-flex justify-content-between">
+                <p class="copywrite">
+                    © 2020 Whoadsme. All right reserved.
+                </p>
+                <img src="Content/img/logo.svg" class="logo">
+            </div>
+        </div>
+    </section>
+
+    <script src="Content/js/plugins.js"></script>
+    <script src="Content/js/main.js"></script>
 </body>
 
 </html>
